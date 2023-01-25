@@ -1,34 +1,23 @@
-<section class="pokemon">
-    <a>
-      <img class="imageArt" src="{{pokemon.imageArt}}" alt="{{pokemon.name}}" />
-    </a>
-    <div class="info">
-      <a class="name">{{pokemon.name}}</a>
-      <p class="types">
-        <span class="type1"></span>
-        <span class="type2"></span>
-      </p>
-      <span class="statblock">
-        <table>
-          <tr>
-            <td>hp</td>
-            <td>{{pokemon.baseHealthPoints}}</td>
-            <td>speed</td>
-            <td>{{pokemon.baseSpeed}}</td>
-          </tr>
-          <tr>
-            <td>normal attack</td>
-            <td>{{pokemon.baseNormalAttack}}</td>
-            <td>normal defense</td>
-            <td>{{pokemon.baseNormalDefense}}</td>
-          </tr>
-          <tr>
-            <td>special attack</td>
-            <td>{{pokemon.baseSpecialAttack}}</td>
-            <td>special defense</td>
-            <td>{{pokemon.baseSpecialDefense}}</td>
-          </tr>
-        </table>
+<html>
+  <head>
+    <title>i want to be the 2nd best</title>
+  </head>
+  <body>
+    <section class="pokemon">
+      <span class="gallery">
+        <span class="name">{{ pokemon.name }} </span>
+        <figure class="gallery__item galerry__item--1">
+          <img
+            class="imageArt"
+            src="{{ pokemon.imageArt }}"
+            alt="{{ pokemon.name }}"
+          />
+        </figure>
+
+        <span class="type">
+          {{ pokemon.type }}
+        </span>
       </span>
-    </div>
-  </section>
+    </section>
+  </body>
+</html>

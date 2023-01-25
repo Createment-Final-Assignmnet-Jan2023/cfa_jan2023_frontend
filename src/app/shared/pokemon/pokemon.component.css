@@ -1,0 +1,36 @@
+.gallery {
+    margin: 5px;
+    
+    float: left;
+    width: 180px;
+    background-color: rgb(241, 241, 241);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+  }
+  
+.gallery:hover {
+    
+    background-color: rgb(224, 224, 224);
+  }
+  
+.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+.alt {
+    padding: 15px;
+    text-align: center;
+  }
+.name{
+    
+    
+    text-align: center;
+    text-transform: capitalize;
+    font-family: roboto;
+    
+}
+
+.type{
+    border: 10px green;
+}
