@@ -14,9 +14,7 @@ import { Pokemon } from './pokemon';
 export class PokemonComponent implements OnInit {
   
   @Input() pokemon: any;
-  ngOnInit(): void {
-    throw new Error('Method not implemented.');
-  }
+  ngOnInit(): void {}
   
   
   
