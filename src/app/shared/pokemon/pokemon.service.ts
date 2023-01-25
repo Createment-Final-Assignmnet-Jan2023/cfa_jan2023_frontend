@@ -13,7 +13,7 @@ export class PokemonService {
 
   constructor(private http: HttpClient){}
 
-/** GET heroes from the server */
+/** GET Pokemon from the server */
 getPokemon(): Observable<Pokemon[]> {
   return this.http.get<Pokemon[]>(this.pokeUrl)
     }
