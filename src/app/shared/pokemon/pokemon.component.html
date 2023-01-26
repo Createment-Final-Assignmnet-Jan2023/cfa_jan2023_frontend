@@ -1,23 +1,16 @@
-<html>
-  <head>
-    <title>i want to be the 2nd best</title>
-  </head>
-  <body>
-    <section class="pokemon">
-      <span class="gallery">
-        <span class="name">{{ pokemon.name }} </span>
-        <figure class="gallery__item galerry__item--1">
-          <img
-            class="imageArt"
-            src="{{ pokemon.imageArt }}"
-            alt="{{ pokemon.name }}"
-          />
-        </figure>
 
-        <span class="type">
-          {{ pokemon.type }}
-        </span>
-      </span>
-    </section>
-  </body>
-</html>
+
+<section class="pokemon">
+  <span class="gallery">
+    <figure class="gallery__item galerry__item--1">
+      <img
+        class="imageArt"
+        src="{{ pokemon.imageArt }}"
+        alt="{{ pokemon.name }}"
+      />
+    </figure>
+    <span class="name">{{ pokemon.name }} </span>
+    <span class="type">{{ pokemon.type }} </span>
+  </span>
+</section>
+
