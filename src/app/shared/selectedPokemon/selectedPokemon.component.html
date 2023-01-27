@@ -17,16 +17,5 @@
       </li>
     </ul>
 
-    <br />
-    <button type="button">
-      <span class="add">inspect</span>
-    </button>
-    <button *ngIf="selectedPokemon" type="button" (click)="onSelect(pokemon)">
-      <span class="add">remove from team</span>
-    </button>
-    <button *ngIf="!selectedPokemon" type="button" (click)="onSelect(pokemon)">
-      <span class="add">add to team</span>
-    </button>
-
   </span>
 </section>

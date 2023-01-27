@@ -2,8 +2,8 @@ import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
 
-import { Pokemon } from './pokemon';
-import { Page } from 'ngx-pagination/public-api';
+
+
 
 
 @Injectable()
