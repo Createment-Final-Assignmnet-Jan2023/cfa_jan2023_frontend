@@ -28,6 +28,14 @@ export class PokemonlistComponent {
     this.selectedPokemon = this.selectedPokemon.filter(oldPokemon=> oldPokemon !== pokemon)
   }
 
+  saveTeam(){
+    this.pokemonservice.createTeam(this.selectedPokemon).subscribe(result => this.selectedPokemon=[])
+    console.log("saved");
+    
+  }
+
+
+
   pageNumber: number= 0;
   nextPage(){
     this.pageNumber++;
