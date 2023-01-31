@@ -1,32 +1,46 @@
-<section class="pokemon">
-  <span class="gallery">
-    <span class="id">{{ pokemon.id }}</span>
+<body>
+  <section class="pokemon">
+    <span class="gallery">
+      <span class="id">{{ pokemon.id }}</span>
 
-    <figure class="gallery__item galerry__item--1">
-      <img
-        class="imageArt"
-        src="{{ pokemon.imageArt }}"
-        alt="{{ pokemon.name }}"
-      />
-    </figure>
+      <figure class="gallery__item galerry__item--1">
+        <img
+          class="imageArt"
+          src="{{ pokemon.imageArt }}"
+          alt="{{ pokemon.name }}"
+        />
+      </figure>
 
-    <span class="name">{{ pokemon.name }} </span>
-    <ul *ngFor="let type of pokemon.types">
-      <li>
-        <span class="type"> {{ type }} </span>
-      </li>
-    </ul>
+      <span class="name">{{ pokemon.name }} </span>
 
-    <br />
-    <button type="button">
-      <span class="add">inspect</span>
-    </button>
-    <button *ngIf="selectedPokemon" type="button" (click)="onSelect(pokemon)">
-      <span class="add">remove from team</span>
-    </button>
-    <button *ngIf="!selectedPokemon" type="button" (click)="onSelect(pokemon)">
-      <span class="add">add to team</span>
-    </button>
+      <ul class="type" *ngFor="let type of pokemon.types">
+        <li>
+          <a
+            ><span> {{ type }} </span></a
+          >
+        </li>
+      </ul>
 
-  </span>
-</section>
+      <br />
+      <div class="teammaker">
+        <button type="button">
+          <span class="add">inspect</span>
+        </button>
+        <button
+          *ngIf="selectedPokemon"
+          type="button"
+          (click)="onSelect(pokemon)"
+        >
+          <span class="add">remove from team</span>
+        </button>
+        <button
+          *ngIf="!selectedPokemon"
+          type="button"
+          (click)="onSelect(pokemon)"
+        >
+          <span class="add">add to team</span>
+        </button>
+      </div>
+    </span>
+  </section>
+</body>

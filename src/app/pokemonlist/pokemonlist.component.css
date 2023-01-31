@@ -1,0 +1,16 @@
+.pagination{
+    position:fixed;
+    left: 50%;
+    bottom:10px;
+    height:30px;
+    width:100%;
+    
+}
+
+.saveteam{
+    padding: -10%;
+    position: fixed;
+    left: 50%;
+    bottom: 90%;
+    
+}

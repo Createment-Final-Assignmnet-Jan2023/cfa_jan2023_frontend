@@ -28,9 +28,16 @@
   font-family: roboto;
 }
 
-.type {
-  border: 10px green;
+ul.type li{
+  background-color: #F7D02C;
+  color: black;
+  border-radius: 1px;
+  border: 1px black;
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
 }
+
 
 
 
