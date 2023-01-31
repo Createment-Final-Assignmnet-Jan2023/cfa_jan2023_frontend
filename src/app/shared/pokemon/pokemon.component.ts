@@ -13,10 +13,9 @@ import { Pokemon } from './pokemon';
 
 export class PokemonComponent implements OnInit {
   
+  
   @Input() pokemon: any;
-  ngOnInit(): void {
-    
-    
+  ngOnInit(): void { 
   }
   @Output() addPokemonEvent = new EventEmitter<Pokemon>();
   @Output() removePokemonEvent = new EventEmitter<Pokemon>();
@@ -24,6 +23,7 @@ export class PokemonComponent implements OnInit {
   addNewPokemon(value:Pokemon){
     this.addPokemonEvent.emit(value);
   }
+
   removeNewPokemon(value:Pokemon){
     this.removePokemonEvent.emit(value);
   }
