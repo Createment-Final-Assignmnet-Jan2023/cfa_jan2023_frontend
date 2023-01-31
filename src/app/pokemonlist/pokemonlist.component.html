@@ -1,25 +1,31 @@
-<ng-container *ngFor="let pokemon of pokemonList">
-  <app-pokemon
-    (addPokemonEvent)="addPokemon($event)"
-    (removePokemonEvent)="removePokemon($event)"
-    [pokemon]="pokemon"
-  >
-  </app-pokemon>
-</ng-container>
+<div class="selected">
+  <ng-container *ngFor="let pokemon of selectedPokemon">
+    <app-selected-pokemon [pokemon]="pokemon"> </app-selected-pokemon>
+  </ng-container>
+
+  <div class="saveteam">
+    <button type="button" (click)="saveTeam()">save Team</button>
+  </div>
+</div>
+
+<div class="pokedex">
+  
+  <ng-container *ngFor="let pokemon of pokemonList">
+    <app-pokemon
+      (addPokemonEvent)="addPokemon($event)"
+      (removePokemonEvent)="removePokemon($event)"
+      [pokemon]="pokemon"
+    >
+    </app-pokemon>
+  </ng-container>
+</div>
 
 <br />
+
 <div class="pagination">
   <button type="button" (click)="previousPage()">previous</button>
   {{ pageNumber + 1 }}
   <button type="button" (click)="nextPage()">next</button>
 </div>
-<br />
 
-<div>
-  <ng-container *ngFor="let pokemon of selectedPokemon">
-    <app-selected-pokemon [pokemon]="pokemon"> </app-selected-pokemon>
-  </ng-container>
-  <div class="saveteam">
-    <button type="button" (click)="saveTeam()">save Team</button>
-  </div>
-</div>
+<br />

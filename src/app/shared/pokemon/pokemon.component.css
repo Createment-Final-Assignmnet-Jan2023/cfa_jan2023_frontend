@@ -3,7 +3,7 @@
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
   float: left;
-  width: 180px;
+  width: 160px;
   background-color: rgb(241, 241, 241);
   box-shadow: 0 4px 8px 0 rgba(63, 61, 61, 0.2),
     0 6px 20px 0 rgba(156, 155, 155, 0.19);
@@ -15,7 +15,7 @@
 }
 
 .gallery img {
-  width: 100%;
+  width: 80%;
   height: auto;
 }
 

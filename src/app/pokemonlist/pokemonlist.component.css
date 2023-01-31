@@ -1,16 +1,25 @@
-.pagination{
-    position:fixed;
-    left: 50%;
-    bottom:10px;
-    height:30px;
-    width:100%;
-    
+.pagination {
+  position: fixed;
+  left: 50%;
+  bottom: 10px;
+  height: 30px;
+  width: 100%;
 }
 
-.saveteam{
-    padding: -10%;
-    position: fixed;
-    left: 50%;
-    bottom: 90%;
-    
+.saveteam {
+  padding: -10%;
+  position: fixed;
+  left: 50%;
+  bottom: 90%;
+}
+
+.selected {
+  width: min-content;
+  float: left;
+  height: calc(100vh - 50px);
+  overflow-y: auto;
+}
+.pokedex {
+  float: right;
+  width: calc(100vw - 230px);
 }
