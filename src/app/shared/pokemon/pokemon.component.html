@@ -13,15 +13,16 @@
 
       <span class="name">{{ pokemon.name }} </span>
       <br />
-      <span *ngFor="let type of pokemon.types" class="{{ type }}">
-        {{ type | titlecase }}
+      <span class="typelabels">
+        <span *ngFor="let type of pokemon.types" class="{{ type }}">
+          {{ type | titlecase }}
+        </span>
       </span>
-
       <br />
       <div class="teammaker">
-        <button type="button">
+        <!--<button type="button">
           <span class="add">inspect</span>
-        </button>
+        </button>-->
         <button
           *ngIf="selectedPokemon"
           type="button"

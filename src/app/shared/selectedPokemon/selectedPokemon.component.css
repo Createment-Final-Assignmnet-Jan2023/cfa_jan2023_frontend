@@ -1,6 +1,7 @@
 .gallery {
   margin: 5px;
-
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
   float: left;
   width: 180px;
   background-color: rgb(150, 172, 247);
@@ -25,14 +26,206 @@
 .name {
   text-align: center;
   text-transform: capitalize;
-  font-family: roboto;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }
 
 .type {
   border: 10px green;
 }
 
-
-
-
-
+.normal {
+  background-color: #a8a77a;
+  border: none;
+  color: black;
+  padding: 2px 10px;
+  font-size: x-small;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  border-radius: 16px;
+}
+.fire {
+  background-color: #ee8130;
+  border: none;
+  color: black;
+  padding: 2px 10px;
+  font-size: x-small;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  border-radius: 16px;
+}
+.water {
+  background-color: #6390f0;
+  border: none;
+  color: black;
+  padding: 2px 10px;
+  font-size: x-small;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  border-radius: 16px;
+}
+.electric {
+  background-color: #f7d02c;
+  border: none;
+  color: black;
+  padding: 2px 10px;
+  font-size: x-small;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  border-radius: 16px;
+}
+.grass {
+  background-color: #7ac74c;
+  border: none;
+  color: black;
+  padding: 2px 10px;
+  font-size: x-small;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  border-radius: 16px;
+}
+.ice {
+  background-color: #96d9d6;
+  border: none;
+  color: black;
+  padding: 2px 10px;
+  font-size: x-small;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  border-radius: 16px;
+}
+.fighting {
+  background-color: #c22e28;
+  border: none;
+  color: black;
+  padding: 2px 10px;
+  font-size: x-small;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  border-radius: 16px;
+}
+.poison {
+  background-color: #a33ea1;
+  border: none;
+  color: black;
+  padding: 2px 10px;
+  font-size: x-small;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  border-radius: 16px;
+}
+.ground {
+  background-color: #e2bf65;
+  border: none;
+  color: black;
+  padding: 2px 10px;
+  font-size: x-small;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  border-radius: 16px;
+}
+.flying {
+  background-color: #a98ff3;
+  border: none;
+  color: black;
+  padding: 2px 10px;
+  font-size: x-small;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  border-radius: 16px;
+}
+.psychic {
+  background-color: #f95587;
+  border: none;
+  color: black;
+  padding: 2px 10px;
+  font-size: x-small;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  border-radius: 16px;
+}
+.bug {
+  background-color: #a6b91a;
+  border: none;
+  color: black;
+  padding: 2px 10px;
+  font-size: x-small;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  border-radius: 16px;
+}
+.rock {
+  background-color: #b6a136;
+  border: none;
+  color: black;
+  padding: 2px 10px;
+  font-size: x-small;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  border-radius: 16px;
+}
+.ghost {
+  background-color: #735797;
+  border: none;
+  color: black;
+  padding: 2px 10px;
+  font-size: x-small;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  border-radius: 16px;
+}
+.dragon {
+  background-color: #6f35fc;
+  border: none;
+  color: black;
+  padding: 2px 10px;
+  font-size: x-small;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  border-radius: 16px;
+}
