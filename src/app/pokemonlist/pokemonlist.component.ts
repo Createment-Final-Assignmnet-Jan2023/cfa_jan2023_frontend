@@ -35,7 +35,7 @@ export class PokemonlistComponent {
   nextPage() {
     this.pageNumber++;
     this.pokemonservice
-      .getPokemon({ size: 25, page: this.pageNumber })
+      .getPokemon({ size: 14, page: this.pageNumber })
       .subscribe((page: any) => {
         this.pokemonList = page.content;
       });
@@ -43,7 +43,7 @@ export class PokemonlistComponent {
   previousPage() {
     this.pageNumber--;
     this.pokemonservice
-      .getPokemon({ size: 25, page: this.pageNumber })
+      .getPokemon({ size: 14, page: this.pageNumber })
       .subscribe((page: any) => {
         this.pokemonList = page.content;
       });
@@ -51,7 +51,7 @@ export class PokemonlistComponent {
 
   ngOnInit() {
     this.pokemonservice
-      .getPokemon({ size: 25, page: this.pageNumber })
+      .getPokemon({ size: 14, page: this.pageNumber })
       .subscribe((page: any) => {
         this.pokemonList = page.content;
       });

@@ -2,21 +2,39 @@
   position: fixed;
   left: 50%;
   bottom: 10px;
-  height: 30px;
   width: 100%;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  text-shadow: 4px 8px 10px black;
 }
 
 .saveteam {
   padding: -10%;
   position: fixed;
-  left: 50%;
-  bottom: 90%;
+  left: 50px;
+  bottom: 10px;
+}
+.button {
+  background-color: #046daa;
+  border: none;
+  color: white;
+  padding: 8px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 16px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  box-shadow: 0 4px 8px 0 rgba(63, 61, 61, 0.2),
+    0 6px 20px 0 rgba(156, 155, 155, 0.19);
 }
 
 .selected {
   width: min-content;
   float: left;
-  height: calc(100vh - 50px);
+  height: calc(100vh - 100px);
   overflow-y: auto;
 }
 .pokedex {

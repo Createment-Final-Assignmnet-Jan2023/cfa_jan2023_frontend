@@ -5,13 +5,14 @@ ul {
 
   overflow: hidden;
   background-color: #f1f1f1;
-  font-family: roboto;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }
 
 li {
   float: left;
 }
-li.home{
+li.home {
   float: right;
 }
 
@@ -27,9 +28,13 @@ li a.active {
   background-color: #046daa;
   color: white;
 }
-
+/* 
 li a:hover:not(.active) {
   background-color: #555;
   color: white;
-}
+} */
 
+li a:hover {
+  background-color: #555;
+  color: white;
+}

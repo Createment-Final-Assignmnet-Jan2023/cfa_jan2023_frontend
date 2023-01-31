@@ -4,12 +4,13 @@
   </ng-container>
 
   <div class="saveteam">
-    <button type="button" (click)="saveTeam()">save Team</button>
+    <button type="button" (click)="saveTeam()" class="button">
+      Start Battle
+    </button>
   </div>
 </div>
 
 <div class="pokedex">
-  
   <ng-container *ngFor="let pokemon of pokemonList">
     <app-pokemon
       (addPokemonEvent)="addPokemon($event)"
@@ -23,9 +24,9 @@
 <br />
 
 <div class="pagination">
-  <button type="button" (click)="previousPage()">previous</button>
+  <button type="button" (click)="previousPage()" class="button">🡐</button>
   {{ pageNumber + 1 }}
-  <button type="button" (click)="nextPage()">next</button>
+  <button type="button" (click)="nextPage()" class="button">🡒</button>
 </div>
 
 <br />
